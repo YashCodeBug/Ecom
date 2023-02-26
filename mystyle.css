@@ -1,0 +1,59 @@
+header{
+    text-align: center;
+    font-size:100px;
+    color:beige;
+}
+
+header:hover{
+    transition:0.3s;
+    transform:scale(1.2);
+}
+
+section{
+    background-image:url("hiphop.jpg");
+    height:700px;
+    background-size: 100% 100%;
+}
+ .part1{
+    height:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.part1 img:hover{
+    -webkit-transform: scaleX(-1);
+    transform:scaleX(-1);
+    box-shadow:2px 2px 10px black;
+}
+
+
+.part1 h1{
+    text-shadow: 3px 3px 5px darkcyan;
+    color:aqua;
+    font-size:50px;
+    
+}
+
+.part1 h4{
+    background-color:black;
+    color:aliceblue;
+    height:50px;
+    text-align: center;
+    padding-top:10px;
+}
+
+.part1 h4:hover{
+    transition:0.8s;
+    transform:scale(0.8);
+}
+
+.part1 p{
+font-size:20px;
+}
+
+marquee{
+    font-size:40px;
+    color:black;
+    text-shadow:2px 2px 3px red;
+}
